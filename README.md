@@ -54,7 +54,7 @@ The "conplete" API aims to give a complete list of talks going on at different c
 
 The `conplete_solution` directory has a sample app. 
 
-[Link to completed app on heroku.](https://con-pletionist.herokuapp.com)
+[Link to completed app on heroku.](https://conplete-api.herokuapp.com)
 
 
 ### Set Up Conferences
@@ -229,9 +229,9 @@ The `conplete_solution` directory has a sample app.
 
   Write your `cURL` commands down to use again later.
 
-  <details><summary>Stuck? Click to see a sample verbose `cURL` command to get JSON for `GET /conferences/3`. (You'll need to modify it!)</summary>`$ curl -v -H "Accept: application/json" -H "Content-type: appliction/json" -X GET https://con-pletionist.herokuapp.com/conferences/3`</details>
+  <details><summary>Stuck? Click to see a sample verbose `cURL` command to get JSON for `GET /conferences/3`. (You'll need to modify it!)</summary>`$ curl -v -H "Accept: application/json" -H "Content-type: appliction/json" -X GET https://conplete-api.herokuapp.com/conferences/3`</details>
 
-  <details><summary>Stuck? Click to see a sample verbose `cURL` command for `POST /talks`. (You'll need to modify it!)</summary>`$ curl -v -H "Accept: application/json" -H "Content-type: application/json" -X POST -d ' {"talk":{"title":"The Future of Kia Automobiles","speaker_name":"Chip Cilantro"}}'  https://con-pletionist.herokuapp.com/talks`</details>
+  <details><summary>Stuck? Click to see a sample verbose `cURL` command for `POST /talks`. (You'll need to modify it!)</summary>`$ curl -v -H "Accept: application/json" -H "Content-type: application/json" -X POST -d ' {"talk":{"title":"The Future of Kia Automobiles","speaker_name":"Chip Cilantro"}}'  https://conplete-api.herokuapp.com/talks`</details>
 
 18. Do you see errors or unexpected results when you run your `cURL` commands?
 
