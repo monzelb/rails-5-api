@@ -40,14 +40,19 @@ There are hints or code snippets with some of the steps.  You'll usually have to
 
 Sometimes, you'll find steps that are missing or ambiguous and don't have hints.  You have the skills and resources to figure out these steps yourselves, especially if you work together and share tips with all of your colleagues.   
 
-If you find yourself very stuck, please research the solution code (linked below). 
-
+If you find yourself very stuck, please research the solution code (linked below).
 
 Meta-goals:
 
   * Practice finding and using documentation.
   * Practice picking out key words from project descriptions.
   * Explain pros and cons of using code generators.
+
+Resources:
+- [`jbuilder` docs](https://github.com/rails/jbuilder)  
+- [Rails guide on Using Rails to build an API](http://guides.rubyonrails.org/api_app.html)
+- [Conplete API on heroku.](https://conplete-api.herokuapp.com)
+- [Sample solution repository](https://github.com/sf-wdi-34/conplete-api)
   
 
 ## The "Conplete" API
