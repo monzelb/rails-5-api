@@ -38,7 +38,9 @@ This lesson is structured as a self-guided lab in which you'll build an API with
 
 There are hints or code snippets with some of the steps.  You'll usually have to click to see them.
 
-Sometimes, you'll find steps that are missing or ambiguous and don't have hints.  You have the skills and resources to figure out these steps yourselves, especially if you work together and share tips with all of your colleagues. 
+Sometimes, you'll find steps that are missing or ambiguous and don't have hints.  You have the skills and resources to figure out these steps yourselves, especially if you work together and share tips with all of your colleagues.   
+
+If you find yourself very stuck, please research the solution code (linked below). 
 
 
 Meta-goals:
