@@ -107,7 +107,13 @@ The "conplete" API aims to give a complete list of talks going on at different c
 
 4.  Once you have your Rails server running, spend 5-10 minutes interacting with the site through Postman or `curl`. Try all CRUD actions for conferences, using the routes listed in your `rails routes`. Either through a `POST` request or through the Rails console, create at least one conference. 
 
-5. Spend 10 minutes looking through the code Rails generated.  Pay particular attention to `app/controllers/conferences_controller.rb`, and answer the following questions with a partner:
+ <details><summary>click to see example http request to post a conference with `curl`</summary>
+ ```bash
+ $ curl -v -H "Accept: application/json" -H "Content-type: application/json" -X POST -d ' {"conference":{"name":"Cancun Con Con","location":"Cancun"}}'  https://conplete-api.herokuapp.com/conferences
+ ```
+ </details>
+
+5. Spend 5-10 minutes looking through the code Rails generated.  Pay particular attention to `app/controllers/conferences_controller.rb`, and answer the following questions with a partner:
 
   * In the conferences controller, what does the line `  before_action :set_conference, only: [:show, :update, :destroy]` do?
 
