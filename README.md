@@ -52,9 +52,10 @@ Meta-goals:
 
 The "conplete" API aims to give a complete list of talks going on at different conferences.  Conferences have many talks! This API helps track them. It processes requests as JSON request, with a permissive JSON API.
 
-The `conplete_solution` directory has a sample app. 
 
 [Link to completed app on heroku.](https://conplete-api.herokuapp.com)
+
+[Link to sample solution code.](https://github.com/sf-wdi-34/conplete-api)
 
 
 ### Set Up Conferences
