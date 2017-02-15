@@ -235,7 +235,7 @@ The "conplete" API aims to give a complete list of talks going on at different c
   * search "curl json format rails"
   </details>
 
-  Write your `cURL` commands down to use again later.
+  Copy your `cURL` commands into a file somewhere to use them easily later.
 
   <details><summary>Stuck? Click to see a sample verbose `cURL` command to get JSON for `GET /conferences/3`. (You'll need to modify it!)</summary>`$ curl -v -H "Accept: application/json" -H "Content-type: appliction/json" -X GET https://conplete-api.herokuapp.com/conferences/3`</details>
 
@@ -245,7 +245,7 @@ The "conplete" API aims to give a complete list of talks going on at different c
 
   **Next up:** change the CSRF protection strategy to allow cross-site requests
 
-19. Rails provides a lot of [security features](http://guides.rubyonrails.org/security.html).  One such security feature is a token that Rails places on every page to protect from Cross-Site Request Forgery (CSRF).   Unfortunately, this protection throws an exception and doesn't let anyone else use our api.  Configure Rails to protect the site from forgery with the `null_session` strategy instead of with an exception.
+19. If you see CSRF errors, take this step. If not, move to the next step. Rails provides a lot of [security features](http://guides.rubyonrails.org/security.html).  One such security feature is a token that Rails places on every page to protect from Cross-Site Request Forgery (CSRF).   Unfortunately, this protection throws an exception and doesn't let anyone else use our api.  Configure Rails to protect the site from forgery with the `null_session` strategy instead of with an exception.
 
   <details><summary>Click for a suggestion about where to find more information.</summary>
     * search "Rails CSRF null_session"
